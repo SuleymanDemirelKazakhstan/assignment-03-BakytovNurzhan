@@ -1,24 +1,51 @@
 <html>
-<head>
-<style>
-/* Write your code here */
-</style>
-</head>
-<body>
-<aside class="left_part">
-  <h1>Web Technologies</h1>
-</aside>
-<section class="right_part">
-  <h3>Syllabus</h3>
-  <div class="">
-    <ul>
-      <li><a href="#">Week #1</a> Introduction to HTML</li>
-      <li><a href="#">Week #2</a> CSS Basics</li>
-      <li><a href="#">Week #3</a> CSS Box model</li>
-      <li><a href="#">Week #4</a> Flex box model</li>
-    </ul>
-  </div>
-</section>
-</body>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+      }
+      aside {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: red;
+        font-size: 50px;
+      }
+      section {
+        flex: 1;
+      }
+      section h3 {
+        margin: 10px 0;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 900;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      section ul {
+        margin-left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <aside class="left_part">
+      <h1>Web Technologies</h1>
+    </aside>
+    <section class="right_part">
+      <h3>Syllabus</h3>
+      <div class="">
+        <ul>
+          <li><a href="#">Week #1</a> Introduction to HTML</li>
+          <li><a href="#">Week #2</a> CSS Basics</li>
+          <li><a href="#">Week #3</a> CSS Box model</li>
+          <li><a href="#">Week #4</a> Flex box model</li>
+        </ul>
+      </div>
+    </section>
+  </body>
 </html>
-
